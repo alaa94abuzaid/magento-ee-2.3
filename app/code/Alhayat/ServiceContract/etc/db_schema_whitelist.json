@@ -1,0 +1,12 @@
+{
+    "stackoverflow_post_service_contract": {
+        "column": {
+            "id": true,
+            "name": true,
+            "description": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

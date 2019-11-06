@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <preference for="Alhayat\ServiceContract\Api\Data\PostInterface" type="Alhayat\ServiceContract\Model\Post"/>
+    <preference for="Alhayat\ServiceContract\Api\PostRepositoryInterface" type="Alhayat\ServiceContract\Model\PostRepository"/>
+
+</config>

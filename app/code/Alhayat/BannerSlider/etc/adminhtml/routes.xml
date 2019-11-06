@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="alhayat_banners_slider" frontName="alhayat_banners_slider">
+            <module name="Alhayat_BannerSlider"/>
+        </route>
+    </router>
+</config>

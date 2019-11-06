@@ -1,0 +1,15 @@
+<!--@subject {{trans "Welcome to %store_name" store_name=$store.getFrontendName()}} @-->
+<!--@vars {
+"var this.getUrl($store, 'customer/account/')":"Customer Account URL",
+"var customer.email":"Customer Email",
+"var customer.name":"Customer Name"
+} @-->
+
+{{template config_path="design/email/header_template"}}
+{{trans "Hello %administrator_name," administrator_name=$administrator_name|row}}
+
+{{trans 'The customer named %customer_name just logged into the %store_name:' customer_name=$customer.name store_name=$store.getFrontendName()|row}}
+
+{{trans "You don't need to do anything, this email helps you to track the activations of the customers."|row}}
+
+{{template config_path="design/email/footer_template"}}

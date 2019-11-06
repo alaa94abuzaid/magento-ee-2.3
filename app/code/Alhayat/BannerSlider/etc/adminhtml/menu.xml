@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Alhayat_BannerSlider::banners_slider" title="Banner Slider" translate="title" module="Alhayat_BannerSlider" sortOrder="20" resource="Alhayat_BannerSlider::banners_slider"/>
+        <add id="Alhayat_BannerSlider::all_banners" title="All Banners" translate="title" module="Alhayat_BannerSlider" sortOrder="10" resource="Alhayat_BannerSlider::all_banners" parent="Alhayat_BannerSlider::banners_slider" action="alhayat_banners_slider/banner/index"/>
+        <add id="Alhayat_BannerSlider::all_groups" title="All Groups" translate="title" module="Alhayat_BannerSlider" sortOrder="10" resource="Alhayat_BannerSlider::all_groups" parent="Alhayat_BannerSlider::banners_slider" action="alhayat_banners_slider/group/index"/>
+    </menu>
+</config>
