@@ -28,7 +28,7 @@ where `<options>` are defined as follows:
 ```
 
 This script works in two ways:
-
+This is development branch.
 * Create/delete symlinks from the EE repository to the CE repository and create/delete the exclude file (*magento2ce/.git/info/exclude*).
 * Only create/delete symlinks.
 
